@@ -1,0 +1,26 @@
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    transition: all .5s;
+    background-color: rgb(180, 196, 42);
+}
+.box.bigger {
+    width: 200px;
+    height: 200px;
+}
+.box.circle {
+    border-radius: 50%;
+}
+.box.move {
+    transform: translateX(300px);
+}
+.box.final {
+    width: 100px;
+
+}
+.box.colored {
+    background-color: blueviolet;
+}
+.box:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
